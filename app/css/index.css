@@ -1,0 +1,12 @@
+.strong {
+    font-weight: bolder;
+    color: red;
+}
+
+header {
+    background-color: #000000;
+}
+
+body {
+    margin: auto;
+}

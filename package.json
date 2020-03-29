@@ -1,0 +1,21 @@
+{
+  "name": "oi-14-desktop",
+  "version": "0.0.1",
+  "description": "Desktop of oi-14",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "oi-14",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "electron": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oi-14/desktop-app.git"
+  }
+}
