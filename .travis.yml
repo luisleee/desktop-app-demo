@@ -9,8 +9,8 @@ branches:
 before_install:
     - git config --global user.name "luisleee"
     - git config --global user.email "luisleee@126.com"
-    - sudo apt update 
-    - sudo apt install wine64 -y
+    - sudo apt update
+    - sudo apt install wine -y
 install:
     - npm install
     - npm install electron-packager -g
@@ -20,5 +20,3 @@ deploy:
     provider: releases
     token: $GITHUB_TOKEN
     file: "out/*.zip"
-    on:
-        tags: true
