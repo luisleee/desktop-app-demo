@@ -23,6 +23,7 @@ deploy:
     provider: releases
     token: $GITHUB_TOKEN
     skip_cleanup: true
+    draft: true
     file:
         - "./out/oi-14-linux-x64.zip"
         - "./out/oi-14-win32-ia32.zip"
