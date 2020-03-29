@@ -24,8 +24,7 @@ deploy:
     token: $GITHUB_TOKEN
     skip_cleanup: true
     file:
-        - "out/oi-14-linux-ia32.zip"
-        - "out/oi-14-linux-x64.zip"
-        - "out/oi-14-win32-ia32.zip"
-        - "out/oi-14-win32-x64.zip"
-        - "out/oi-14-darwin-x64.zip"
+        - "./out/oi-14-linux-x64.zip"
+        - "./out/oi-14-win32-ia32.zip"
+        - "./out/oi-14-win32-x64.zip"
+        - "./out/oi-14-darwin-x64.zip"
