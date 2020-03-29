@@ -1,0 +1,22 @@
+language: node_js
+node_js: stable
+arch:
+sudo: required
+branches:
+    only:
+        - master
+before_install:
+    - git config --global user.name "luisleee"
+    - git config --global user.email "luisleee@126.com"
+install:
+    - npm install
+    - sudo npm install electron-packager -g
+script:
+    - npm run build
+deploy:
+    provider: releases
+    api_key: $GITHUB_TOKEN
+    file: "out/*.zip"
+    skip_cleanup: true
+    on:
+        tags: true
