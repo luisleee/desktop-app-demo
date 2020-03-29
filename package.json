@@ -1,6 +1,6 @@
 {
   "name": "oi-14-desktop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Desktop of oi-14",
   "main": "index.js",
   "scripts": {
