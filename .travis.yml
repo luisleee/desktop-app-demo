@@ -1,6 +1,5 @@
 os: linux
 dist: bionic
-sudo: true
 language: node_js
 node_js: stable
 branches:
@@ -22,7 +21,6 @@ before_deploy:
 deploy:
     provider: releases
     token: $GITHUB_TOKEN
-    skip_cleanup: true
     draft: true
     file:
         - "./out/oi-14-linux-x64.zip"
