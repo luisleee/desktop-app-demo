@@ -1,6 +1,6 @@
 // Show version
 var nodeVer = process.version;
-var electronVer = process.versions["electron"]
+var electronVer = process.versions.electron;
 document.getElementById("node-version").innerText = nodeVer;
 document.getElementById("electron-version").innerText = electronVer;
 // Handle button
