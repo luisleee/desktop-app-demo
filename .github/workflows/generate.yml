@@ -76,14 +76,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: |
-            ./out/oi-14-linux-x64.zip
-            ./out/oi-14-win32-ia32.zip
-            ./out/oi-14-win32-x64.zip
-            ./out/oi-14-darwin-x64.zip
-          asset_name: |
-            oi-14-linux-x64.zip
-            oi-14-win32-ia32.zip
-            oi-14-win32-x64.zip
-            oi-14-darwin-x64.zip
+          asset_path:
+            - ./out/oi-14-linux-x64.zip
+            - ./out/oi-14-win32-ia32.zip
+            - ./out/oi-14-win32-x64.zip
+            - ./out/oi-14-darwin-x64.zip
+          asset_name:
+            - oi-14-linux-x64.zip
+            - oi-14-win32-ia32.zip
+            - oi-14-win32-x64.zip
+            - oi-14-darwin-x64.zip
           asset_content_type: application/zip
