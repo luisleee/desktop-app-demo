@@ -27,7 +27,7 @@ jobs:
       - name: Install apt packages
         run: |
           sudo apt update
-          sudo apt install wine-stable - y
+          sudo apt install wine-stable -y
       
       - name: Cache node modules
         uses: actions/cache@v2
