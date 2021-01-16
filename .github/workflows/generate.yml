@@ -44,6 +44,10 @@ jobs:
           npm install electron-packager -g
           npm install
 
+      - name: Build
+        run: |
+          npm run build
+
       - name: Tagging
         run: |
           export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
