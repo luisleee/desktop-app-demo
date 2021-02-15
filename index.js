@@ -58,7 +58,7 @@ ipc.on("oi-14-link", function(event, arg) {
         width: 600,
         height: 700
     });
-    window.loadURL("https://github.com/oi-14");
+    window.loadURL("https://example.com/");
     window.on("closed", function() {
         windows.delete(window);
         window = null;

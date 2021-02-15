@@ -1,7 +1,7 @@
 {
-  "name": "oi-14-desktop",
+  "name": "desktop-app-demo",
   "version": "0.0.2",
-  "description": "Desktop of oi-14",
+  "description": "Desktop demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,6 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oi-14/desktop-app.git"
+    "url": "https://github.com/luisleee/desktop-app-demo.git"
   }
 }
